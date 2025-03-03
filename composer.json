@@ -1,0 +1,16 @@
+{
+    "name": "blog/api",
+    "description": "Blog API with users, posts, and comments",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
